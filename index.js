@@ -9,5 +9,5 @@ var device = awsIot.device({
 
 device.on('connect', function() {
   console.log('connected');
-  device.publish('photo/send', JSON.stringify({ test_data: 1}));
+  device.publish('photo/send', "hi~");
 });

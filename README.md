@@ -6,7 +6,7 @@ A tutorial on creating a Node.js nabot using AWS Lambda with AWS API Gateway.
 $ git clone https://github.com/dislash/nabot.git
 $ cd nabot  
 $ npm install  
-$ zip -r nabot.zip *.js node_modules/*
+$ zip -r nabot.zip index.js node_modules/* *.crt *.key
 ```
 
 ### AWS Lambda
